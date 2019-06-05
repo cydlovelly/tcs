@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./js/index.js"></script>
+    <link href="./css/index.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+</head>
+<body>
+    <!-- 开始游戏前 -->
+    <div class="start">
+            <div class="start-btn" id="start_btn">开始游戏</div>
+    </div>
+    <!-- 开始游戏后 -->
+    <div class="con">
+        <!-- 开始暂停 -->
+            <div class="pause">
+                <div class="pause-img">
+                    <img id="startp" src="./img/ks1.png" style="max-width:75px;">
+                </div>
+            </div>
+            <!-- 中间内柔 -->
+            <div class="con-game">
+                <div class="grade">
+                    分数：<span id="grade">0</span>
+                </div>
+                <div class="game" id="game"></div>
+            </div>
+    </div>
+    <!-- 结束游戏后 -->
+    <div class="over">
+        <div class="close">X</div>
+        <div class="over-pause">
+            分数：<span id="p_grade">0</span>
+        </div>
+    </div>
+</body>
+</html>
