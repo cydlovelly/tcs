@@ -11,7 +11,6 @@ window.onload= function(){
     var body = $("body");       // body
     var game = $(".game");     //游戏输出div
     var snakemove;
-//     var speed = prompt("输入游戏速度，建议在120");
     var speed = 100;
     var grades = $("#grade");
     var gradea = $("#p_grade");
