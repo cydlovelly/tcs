@@ -288,6 +288,7 @@ window.onload= function(){
         close.onclick =function(){
             over.style.display = "none";
             startp.style.display = 'block';
+            gradea.innerHTML = 0;
             startp.setAttribute('src','./img/zt.png');
         }
         btn.onclick =function(){
